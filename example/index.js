@@ -1,7 +1,7 @@
 const go = require('..')
 
 const config = {
-  '/': 'OpenCache Server 0.1.1',
+  '/': 'OpenCache/0.1.1',
   '*': (req) => {
     if (req.headers.host === 'localhost:3000') {
       return 'Hello from localhost:3000'
